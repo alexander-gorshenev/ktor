@@ -14,7 +14,7 @@ class TypeInfoTest {
 
     @Test
     @Ignore
-    fun `type info with class defined in method scope with complex name`() {
+    fun typeInfoWithClassDefinedInMethodScopeWithComplexName() {
         class SomeClass
         typeInfo<SomeClass>()
     }
